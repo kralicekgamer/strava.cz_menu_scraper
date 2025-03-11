@@ -13,6 +13,8 @@ This script fetches the daily menu from Strava.cz and converts it into a structu
     ```
 
 ## Usage
+- Replace the placeholder URL in the `page.goto` method with the actual URL of the menu page. (line 16)
+
 Run the script to fetch and process the menu:
 ```python
 from readJson import read

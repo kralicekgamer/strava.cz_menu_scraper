@@ -11,6 +11,8 @@ def read():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
+        # PASTE HERE YOUR LINK
+        # example link: https://app.strava.cz/jidelnicky?jidelna=6218
         page.goto('https://app.strava.cz/jidelnicky?jidelna=6218')
 
         try:
