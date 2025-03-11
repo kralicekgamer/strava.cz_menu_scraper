@@ -23,6 +23,8 @@ data = read()
 print(data)
 ```
 
+- Note: This script scrap breakfast, luchn and dinner. Remove it if its needed.  
+
 ## License
 This project is licensed under the MIT License.
 
