@@ -21,14 +21,6 @@ data = read()
 print(data)
 ```
 
-## Function Reference
-
-### `readJson.read()`
-Fetches the menu from Strava.cz and returns it in JSON format.
-
-**Returns:**
-- `dict`: The menu data structured as JSON.
-
 ## License
 This project is licensed under the MIT License.
 
