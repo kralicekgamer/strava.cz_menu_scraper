@@ -13,17 +13,23 @@ This script fetches the daily menu from Strava.cz and converts it into a structu
     ```
 
 ## Usage
-- Replace the placeholder URL in the `page.goto` method with the actual URL of the menu page. (line 16)
+1. Replace the placeholder URL in the `page.goto` method with the actual URL of the menu page in the `readJson.py` file.
 
-Run the script to fetch and process the menu:
-```python
-from readJson import read
+2. Fetch the menu:
+    ```python
+    from readJson import read
 
-data = read()
-print(data)
-```
+    read()
+    ```
 
-- Note: This script scrap breakfast, luchn and dinner. Remove it if its needed.  
+3. Get and fetch today's menu:
+    ```python
+    from readJson import readToday
+
+    readToday()
+    ```
+
+- Note: This script scrapes breakfast, lunch, and dinner. Remove any meal if it is not needed.
 
 ## License
 This project is licensed under the MIT License.
