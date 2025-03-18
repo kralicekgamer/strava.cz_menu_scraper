@@ -107,6 +107,10 @@ def readToday():
 
     # Print today's menu
     if today_menu:
+        # Today's menu exists but is not fetched from the web.
+        if today_menu["breakfast"] == "Snídaně":
+            read()
+
         print(json.dumps(today_menu, ensure_ascii=False, indent=4))
 
     else:
