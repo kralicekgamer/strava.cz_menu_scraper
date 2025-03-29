@@ -12,6 +12,11 @@ This script fetches the daily menu from Strava.cz and converts it into a structu
     pip install -r requirements.txt
     ```
 
+3. You need install playwright browser:
+    ```bash
+    playwright install
+    ```   
+
 ## Usage
 1. Replace the placeholder URL in the `page.goto` method with the actual URL of the menu page in the `readJson.py` file.
 
@@ -29,7 +34,7 @@ This script fetches the daily menu from Strava.cz and converts it into a structu
     readToday()
     ```
 
-- Note: This script scrapes breakfast, lunch, and dinner. Remove any meal if it is not needed.
+- Note: This script scrapes breakfast, lunch(1-3), and dinner. Remove any meal if it is not needed.
 
 ## License
 This project is licensed under the MIT License.
