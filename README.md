@@ -1,5 +1,5 @@
 # Strava.cz Menu Scraper
-This script fetches the daily menu from Strava.cz and converts it into a structured JSON format.
+This script fetches the daily menu from Strava.cz and converts it into a structured JSON format. **Vibecode project**
 ## Installation
 1. Clone this repository:
     ```bash
